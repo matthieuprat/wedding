@@ -233,7 +233,7 @@ strong {
     p { margin: 0.8em 0 }
   }
 
-  @media (min-height: 560px) {
+  @media (min-height: 560px) and (min-width: 360px) {
     & {
       height: 100%;
       display: flex;
