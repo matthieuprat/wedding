@@ -203,12 +203,9 @@ strong {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url({{ "/img/cover.png" | prepend: site.baseurl }}) no-repeat bottom center;
+    background: url({{ "/img/cover.png" | prepend: site.baseurl }}) repeat bottom center;
     text-transform: uppercase;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size: contain;
   }
 
   .intro-cover-title {
