@@ -45,3 +45,8 @@ $('.navbar-collapse ul li a').click(function() {
 $('a').mouseup(function() {
   $(this).blur()
 })
+
+new VHChromeFix([{
+  selector: '.intro',
+  vh: 100,
+}]);
