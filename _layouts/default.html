@@ -3,19 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>Violaine et Matthieu</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
-
     <!-- Fonts -->
-    <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    {% include fonts.html %}
+    <link rel="stylesheet" href="{{ "/vendors/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ "/vendors/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   </head>
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  {{ content }}
+    {{ content }}
   </body>
 </html>

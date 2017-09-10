@@ -1,13 +1,4 @@
-// Collapse the navbar on scroll
-// $(window).scroll(function() {
-//   if ($('.navbar').offset().top > 50) {
-//     $('.navbar-fixed-top').addClass('top-nav-collapse')
-//   } else {
-//     $('.navbar-fixed-top').removeClass('top-nav-collapse')
-//   }
-// })
-
-// Scrolling feature (requires jQuery Easing plugin)
+// Scrolling feature (depends on jQuery Easing plugin).
 $(function() {
   $('a.page-scroll').bind('click', function(event) {
     var $anchor = $(this)
@@ -36,17 +27,12 @@ function disableScrollSpy() {
   }
 }
 
-// Closes the Responsive Menu on Menu Item Click
+// Close the menu on menu item click.
 $('.navbar-collapse ul li a').click(function() {
   $('.navbar-toggle:visible').click()
 })
 
-// Remove the focused state after click, otherwise bootstrap will still highlight the link
+// Remove the focused state after click, otherwise it stays highlighted.
 $('a').mouseup(function() {
   $(this).blur()
 })
-
-new VHChromeFix([{
-  selector: '.intro',
-  vh: 100,
-}]);

@@ -5,23 +5,6 @@
  * Definitions
  */
 
-@font-face {
-  font-family: 'Didot';
-  src: url({{ "/fonts/Didot-Regular.ttf" | prepend: site.baseurl }}) format('truetype');
-}
-@font-face {
-  font-family: 'Gotham Light';
-  src: url({{ "/fonts/Gotham/Gotham-Light.otf" | prepend: site.baseurl }}) format('opentype');
-}
-// @font-face {
-//   font-family: 'Gotham Medium';
-//   src: url({{ "/fonts/Gotham/Gotham-Medium.otf" | prepend: site.baseurl }}) format('opentype');
-// }
-// @font-face {
-//   font-family: 'Gotham Book';
-//   src: url({{ "/fonts/Gotham/Gotham-Book.otf" | prepend: site.baseurl }}) format('opentype');
-// }
-
 @keyframes pulse {
   0% { transform: scale(1) }
   50% { transform: scale(1.3) }
@@ -29,9 +12,10 @@
 }
 
 $color-fg: #9c8047;
+$color-fg-light: lighten($color-fg, 45);
+$color-fg-dark: darken($color-fg, 15);
 $color-bg: white;
-$color-links: #2a7472;
-$color-links: hsla(121, 28%, 32%, 1);
+$color-link: hsl(121, 28%, 32%);
 
 /******************************************************************************
  * Globals
@@ -40,35 +24,35 @@ $color-links: hsla(121, 28%, 32%, 1);
 html, body {
   width: 100%;
   height: 100%;
-  font-size: 14px;
-
-  @media (min-width: 767px) {
-    & {
-      font-size: 16px;
-    }
-  }
+  font-size: 16px;
 }
 
 body {
-  font-family: "Gotham Light", Gotham, "Helvetica Neue", sans-serif;
+  font-family: "Gotham Book", Gotham, "Helvetica Neue", sans-serif;
   color: $color-fg;
   background-color: $color-bg;
   line-height: 1.5;
   webkit-tap-highlight-color: rgba($color-fg, .2);
+
+  @media (min-width: 767px) {
+    & {
+      font-family: "Gotham Light", Gotham, "Helvetica Neue", sans-serif;
+    }
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Gotham Medium", Gotham, "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: normal;
   letter-spacing: 0.1em;
   line-height: 1.5;
 }
 
 h1 { font-size: 2em }
-h2 { font-size: 1.6em }
-h3 { font-size: 1.2em }
-h4, h5, h6 { font-size: 0.9em }
+h2 { font-size: 1.7em }
+h3 { font-size: 1.3em }
+h4, h5, h6 { font-size: 1em }
 
 h1 { margin: 1em 0 }
 h2 { margin: 1em 0 }
@@ -86,7 +70,7 @@ a, a:focus {
 }
 
 a:hover, a:active {
-  color: darken($color-fg, 15);
+  color: $color-fg-dark;
 }
 
 hr {
@@ -115,10 +99,6 @@ img::-moz-selection {
   background: 0 0;
 }
 
-strong {
-  font-family: "Gotham Light", Gotham, "Helvetica Neue", sans-serif;
-}
-
 /******************************************************************************
  * Components
  */
@@ -127,8 +107,6 @@ strong {
   margin-bottom: 0;
   border-bottom: 1px solid rgba($color-fg, .3);
   text-transform: uppercase;
-  // font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  // font-size: 0.8em;
   background-color: $color-bg;
 
   a {
@@ -203,66 +181,39 @@ strong {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url({{ "/img/cover.png" | prepend: site.baseurl }}) repeat bottom center;
+    background: rgba($color-fg, .3) url({{ "/img/cover.jpg" | prepend: site.baseurl }}) repeat;
     text-transform: uppercase;
     background-size: contain;
   }
 
   .intro-cover-title {
-    margin: 5rem 2rem 2rem;
+    margin: 6rem 2rem 3rem;
     padding: 0.8em 1.6em;
 
     outline-offset: -0.3em;
-    outline: 0.1em solid #9c8047;
+    outline: 0.1em solid $color-fg;
     background-color: $color-bg;
 
     font-family: 'Didot', serif;
-    font-size: 2em;
+    font-size: 1.4em;
   }
 
   .intro-cover-subtitle {
     margin-top: 0.5em;
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
 
-  .intro-welcome {
-    font-size: 1.2em;
+  .intro-welcome-arrow {
+    margin: 0 0 2em;
   }
 
-  @media (min-width: 360px) and (min-height: 800px) {
-    & {
-      height: 100vh;
-      display: flex;
-    }
+  p { margin: 1.5em 0 }
 
-    .intro-flex-container {
-      display: flex;
-      width: 100%;
-      flex-direction: column;
-    }
-
-    .intro-cover { flex: 1.4 }
-    .intro-welcome { flex: 1 }
-
-    .intro-welcome {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .intro-welcome-text {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-    }
-
-    .intro-welcome-arrow {
-      margin: 0.5em 0 2em;
-    }
-  }
-
-  @media (min-width: 360px) and (min-height: 760px) { .intro-cover { flex: 1.4 } }
-  @media (min-width: 360px) and (max-height: 670px) { .intro-cover { flex: 1 } }
+  @media (min-width: 370px) and (min-height: 620px) { .intro-cover { height: 410px } }
+  @media (min-width: 370px) and (min-height: 700px) { .intro-cover { height: 460px } }
+  @media (min-width: 370px) and (min-height: 780px) { .intro-cover { height: 520px } }
+  @media (min-width: 370px) { .intro-cover-title { font-size: 1.8em } }
+  @media (min-width: 400px) { .intro-cover-title { font-size: 2em } }
   @media (min-width: 650px) { .intro-cover-title { font-size: 2.5em } }
   @media (min-width: 900px) { .intro-cover-title { font-size: 3em } }
 }
@@ -271,7 +222,7 @@ strong {
   padding: 3em 0;
 
   &:nth-of-type(2n) {
-    background: #ebe6db;
+    background: $color-fg-light;
   }
 
   @media (min-width: 651px) {
@@ -281,7 +232,6 @@ strong {
   }
 }
 
-
 .btn {
   text-transform: uppercase;
   font-weight: 400;
@@ -289,21 +239,23 @@ strong {
   text-decoration: none;
   font-size: 1em;
   white-space: normal;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .btn-default,
 .btn-default:focus {
-  border: 1px solid $color-links;
-  color: $color-links;
+  border: 1px solid $color-link;
+  color: $color-link;
   background-color: transparent;
+  outline: 0;
 }
 
 .btn-default:hover,
 .btn-default:active {
-  border: 1px solid $color-links;
+  border: 1px solid $color-link;
   outline: 0;
   color: $color-bg;
-  background-color: $color-links;
+  background-color: $color-link;
 }
 
 .btn-circle {
@@ -383,6 +335,27 @@ strong {
   }
 }
 
+.vertical-divider {
+  display: inline-block;
+  width: 1.4em;
+
+  .vertical-divider-bubble {
+    width: 1.4em;
+    height: 1.4em;
+    border-radius: 50%;
+    background: $color-fg;
+  }
+
+  .vertical-divider-line {
+    display: inline-block;
+    height: 2em;
+    background: $color-fg;
+    width: 2px;
+    overflow: hidden;
+    margin-bottom: -7px;
+  }
+
+}
 /******************************************************************************
  * Helpers
  */
@@ -392,7 +365,7 @@ strong {
 }
 
 .strong {
-  @extend strong
+  font-weight: bold;
 }
 
 .mrg-lg {

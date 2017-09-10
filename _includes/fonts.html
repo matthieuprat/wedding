@@ -1,0 +1,42 @@
+<style>
+@font-face {
+  font-family: 'Didot';
+  font-weight: normal;
+  font-style: normal;
+  src:
+    url({{ '/fonts/Didot-Regular.woff2' | prepend: site.baseurl }}) format('woff2'),
+    url({{ '/fonts/Didot-Regular.woff' | prepend: site.baseurl }}) format('woff'),
+    url({{ '/fonts/Didot-Regular.ttf' | prepend: site.baseurl }}) format('truetype');
+}
+@font-face {
+  font-family: 'Gotham Book';
+  font-weight: normal;
+  font-style: normal;
+  src:
+    url({{ '/fonts/Gotham/Gotham-Book.woff2' | prepend: site.baseurl }}) format('woff2'),
+    url({{ '/fonts/Gotham/Gotham-Book.woff' | prepend: site.baseurl }}) format('woff'),
+    url({{ '/fonts/Gotham/Gotham-Book.otf' | prepend: site.baseurl }}) format('opentype');
+}
+@font-face {
+  font-family: 'Gotham Light';
+  font-weight: normal;
+  font-style: normal;
+  src:
+    url({{ '/fonts/Gotham/Gotham-Light.woff2' | prepend: site.baseurl }}) format('woff2'),
+    url({{ '/fonts/Gotham/Gotham-Light.woff' | prepend: site.baseurl }}) format('woff'),
+    url({{ '/fonts/Gotham/Gotham-Light.otf' | prepend: site.baseurl }}) format('opentype');
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  font-weight: normal;
+  font-style: normal;
+  src: url({{ '/vendors/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0' | prepend: site.baseurl }});
+  src:
+    url({{ '/vendors/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0' | prepend: site.baseurl }}) format('embedded-opentype'),
+    url({{ '/vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0' | prepend: site.baseurl }}) format('woff2'),
+    url({{ '/vendors/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0' | prepend: site.baseurl }}) format('woff'),
+    url({{ '/vendors/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0' | prepend: site.baseurl }}) format('truetype'),
+    url({{ '/vendors/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular' | prepend: site.baseurl }}) format('svg');
+}
+</style>
