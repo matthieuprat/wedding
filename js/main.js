@@ -22,7 +22,7 @@ $(function() {
 function disableScrollSpy() {
   ScrollSpy = $.fn.scrollspy.Constructor
   ScrollSpy.disabled = true
-  return () => {
+  return function() {
     ScrollSpy.disabled = false
   }
 }
@@ -35,4 +35,18 @@ $('.navbar-collapse ul li a').click(function() {
 // Remove the focused state after click, otherwise it stays highlighted.
 $('a').mouseup(function() {
   $(this).blur()
+})
+
+var keys = '';
+var word = 'glandie';
+$(document).on('keyup', function (event) {
+  if (!event.key) return
+  keys += event.key
+  if (word.indexOf(keys) === -1) {
+    keys = ''
+    return
+  }
+  if (keys === word) {
+    location.href = 'http://glandie.com/'
+  }
 })

@@ -1,25 +1,272 @@
 ---
-layout: page
+layout: default
 ---
 
-<style>
-html, body {
-  font-family: "Gotham Light", Gotham, "Helvetica Neue", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@keyframes fade {
-  0% { opacity: 0 }
-  100% { opacity: 1 }
-}
-.soon {
-  animation-name: fade;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  font-size: 4em;
-}
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
 
-</style>
+    <div class="collapse navbar-collapse text-center navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <li class="hidden"><a href="#page-top"></a></li>
+        <li><a href="#programme" class="page-scroll">Programme</a></li>
+        <li><a href="#transport" class="page-scroll">Transport</a></li>
+        <li><a href="#hebergement" class="page-scroll">Hébergement</a></li>
+        <li><a href="#faq" class="page-scroll">FAQ</a></li>
+        <li><a href="#contact" class="page-scroll">Contact</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
 
-<div class="soon">Soon…</div>
+<!-- Header -->
+<header class="intro">
+  <div class="intro-cover">
+    <div class="intro-cover-title">
+      Violaine &amp; Matthieu
+      <div class="intro-cover-subtitle">28 juillet 2018</div>
+    </div>
+  </div>
+  <div class="intro-welcome container-center">
+    <div class="intro-welcome-text">
+      <p>
+        Bienvenue sur le site de notre mariage !
+        Vous trouverez ici toutes les informations nécessaires pour préparer votre venue.
+      </p>
+      <p>
+        <a href="https://goo.gl/forms/RWQvQWzF5xqNwlVg2" target="_blank" class="btn btn-default">
+          <span class="mrg-right-sm">✓</span>Confirmer votre présence
+        </a>
+      </p>
+    </div>
+    <div class="intro-welcome-arrow">
+      <a href="#programme" class="btn btn-circle page-scroll"><i class="fa fa-angle-double-down animated"></i></a>
+    </div>
+  </div>
+</header>
+
+<div class="national-map">
+  <img src="img/map-national.png" />
+</div>
+
+<section class="section" id="programme">
+  <div class="container-center">
+    <h2>Programme</h2>
+    <hr />
+    <h3>Samedi 28 juillet</h3>
+    <h4>16.00 Messe</h4>
+    <a href="https://goo.gl/maps/2j8sowRKmjv">Église Notre-Dame de Combres</a>
+    <h4>19.00 Réception &amp; Soirée</h4>
+    <a href="https://goo.gl/maps/Wj1dRuYzffs">Moulin de Villeray</a>
+    <h3>Dimanche 29 juillet</h3>
+    <h4>12.30 Déjeuner champêtre</h4>
+    <a href="https://goo.gl/maps/HyM5DWHgUgL2">Grande Colline</a>
+    <h4>16.00 Fin des festivités</h4>
+  </div>
+  <div class="local-map">
+    <img src="img/map-local.png" />
+  </div>
+</section>
+
+<section class="section" id="transport">
+  <div class="container-center">
+    <h2>Transport</h2>
+    <hr />
+    <h3><i class="fa fa-car mrg-right-sm"></i>En voiture</h3>
+    <p>
+      <a href="https://goo.gl/maps/2j8sowRKmjv">
+        <i class="fa fa-location-arrow mrg-right-sm"></i>Église Notre-Dame de Combres, 2 rue de la Mazure, 28480 Combres
+      </a>
+    </p>
+    <p>
+      <a href="https://goo.gl/maps/Wj1dRuYzffs">
+        <i class="fa fa-location-arrow mrg-right-sm"></i>Moulin de Villeray, 61110 Sablons-sur-Huisne
+      </a>
+    </p>
+    <p>
+      <a href="https://goo.gl/maps/HyM5DWHgUgL2">
+        <i class="fa fa-location-arrow mrg-right-sm"></i>Grande Colline, La Cavé, 28400 La Gaudaine
+      </a>
+    </p>
+
+    <h3><i class="fa fa-subway mrg-right-sm"></i>En train</h3>
+    <p>Des trains partent de Paris toutes les heures et ralient la gare de Condé-sur-Huisnes et de Nogent-le-Rotrou en 1 h 50.
+    <p>Depuis la gare de Condé-sur-Huisnes, vous pouvez accéder à pied au Moulin de Villeray. Il vous faudra néanmoins une voiture pour vous rendre à l'église de Combres (25 min).</p>
+    <p>
+      Depuis la gare de Nogent-le-Rotrou, vous devrez louer une voiture pour rejoindre l'église de Combres (19 min) ou le Moulin de Villeray (16 min).
+      Nous vous conseillons de vous tourner vers <a href="https://www.drivy.com/">Drivy</a>.
+    </p>
+
+    <h3><i class="fa fa-bicycle mrg-right-sm"></i>En vélo</h3>
+    <p>
+      Vous n'êtes pas sans savoir que c'est notre mode de transport préféré. Pour les plus sportifs, il est possible de
+      <a href="http://www.tourisme28.com/sports-loisirs/velo-vtt/568534-nogent-le-rotrou-location-de-velos-electriques-vae" target="_blank">louer un vélo</a>
+      (électrique ou non) à Nogent. Vous pouvez également louer un vélo à Paris et venir avec en TER jusqu'à Nogent (testé et approuvé).
+    </p>
+    <p>
+      Méfiez-vous néanmoins des reliefs colinéens du Perche, certains d'entre vous en ont déjà fait les frais.
+    </p>
+  </div>
+</section>
+
+<section class="section" id="hebergement">
+  <div class="container-center">
+    <h2>Hébergement</h2>
+    <hr />
+    <p>
+      N’hésitez pas à réserver dès maintenant votre hébergement. Possibilité de dormir sur place. Vous trouverez ci-dessous une liste
+      (non-exhaustive) des locations possibles à moins de 30 minutes en voiture du lieu de réception.
+      Il y en a pour tous les goûts et tous les budgets.
+    </p>
+    <p>
+    <a href="{{ "/hebergements" | prepend: site.baseurl }}" class="btn btn-default">
+      <i class="fa fa-bed"></i> Accéder à la liste des hébergements
+    </a>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container-center">
+    <h2>FAQ</h2>
+    <hr />
+
+    <h5><i class="fa fa-shopping-bag mrg-right-sm"></i>Y a-t-il un dress code à respecter ?</h5>
+    <p>
+      <strong>Mesdames</strong>, afin d'égayer cette journée, misez sur une tenue unie et colorée.<br/>
+      <strong>Messieurs</strong>, si vous ne voulez pas être en reste, osez le noeud papillon coloré sur chemise blanche.
+      Succès assuré.<br/>
+    </p>
+
+    <h5><i class="fa fa-gift mrg-right-sm"></i>Je souhaite gâter les mariés. Comment puis-je faire ?</h5>
+    <p>Le jour de la réception, une urne sera mise à votre disposition pour récolter tous vos petits présents.</p>
+
+    <h5><i class="fa fa-handshake-o mrg-right-sm"></i>Je souhaite venir accompagné(e). Où dois-je l'indiquer ?</h5>
+    <p>Précisez-le simplement dans le <a href="https://goo.gl/forms/RWQvQWzF5xqNwlVg2" target="_blank">formulaire de confirmation</a>.</p>
+
+    <h5><i class="fa fa-car mrg-right-sm"></i>Je viens en voiture. Y a-t-il des parkings prévus ?</h5>
+    <p>Le Moulin de Villeray dispose d'un grand parking accessible depuis la D622 au niveau du pont du moulin. Une
+      passerelle permet de rejoindre à pied l'île sur laquelle se tiendra le cocktail.<br/> Quant au lendemain, un
+      parking sera également mis à disposition à proximité de la propriété. L'emplacement sera fléché.</p>
+
+    <h5><i class="fa fa-microphone mrg-right-sm"></i>Je souhaite faire une intervention pendant la soirée. A qui dois-je m'adresser ?</h5>
+    <p>Quelle bonne idée ! Nous serons ravis d'entendre vos petits mots, discours et autres créations personnalisées.
+      Pour savoir dans quelle mesure cela est faisable, nous vous invitons à contacter
+      nos supers témoins à temoins@violaine-et-matthieu.com.</p>
+<!--
+    <h5><i class="fa fa-clock-o mrg-right-sm"></i>Que fais-je entre la fin de la messe (17:30) et le début du cocktail (19:00) ?</h5>
+    <p>Une petite coupe vous attendra à la sortie de l'église afin de fêter la célébration. Profitez de ce petit moment de repit pour vous remettre de vos émotions, vous repoudrer le nez, et surtout vous rendre sur le lieu de la réception situé à 25min en voiture. On vous attend dès 19.00 pour partager quelques bulles.
+ -->
+
+    <h5><i class="fa fa-cutlery mrg-right-sm"></i>Help ! J'ai des restrictions alimentaires/je suis végétarien !</h5>
+    <p><strike>Nous sommes au regret de vous annoncer que votre présence n'est plus souhaitée.</strike> Allez, pour ce
+      jour unique, on fait une exception et on accepte tous les <i>vegan</i>, <i>gluten-free</i> et compagnie. Veillez
+      néanmoins à nous le signaler au plus tôt par mail à {{ site.email }}.</p>
+
+    <h5><i class="fa fa-instagram mrg-right-sm"></i>Puis-je mettre des photos du mariage sur les réseaux sociaux ?</h5>
+    <p>Pas de contre-indication formelle à ce sujet, néanmoins veillez à ne pas exposer les mariés et les invités sans
+      leur avoir préalablement demandé leur accord.</p>
+
+    <h5><i class="fa fa-camera mrg-right-sm"></i>Où pourrons-nous voir et télécharger les photos du mariage ?</h5>
+    <p>L'adresse de la galerie en ligne, protégée par un mot de passe, vous sera communiquée sur ce site dans un délai de
+      21 jours à compter du mariage. Ainsi, vous pourrez consulter les photos prises par notre photographe professionnelle
+      et télécharger celles que vous souhaitez.</p>
+    <p>Par ailleurs, nous mettrons en ligne un dossier pour récolter les photos que vous aurez prises et les
+      diffuser auprès de tous.</p>
+
+    <h5><i class="fa fa-heart mrg-right-sm"></i>Je suis amoureu(x/se) d'un des deux futurs mariés, comment fais-je ?</h5>
+    <p>Nous partageons votre sentiment. Nous aussi nous sommes amoureux de l'un des futurs mariés. Nous n'avons qu'une
+      chose à vous dire : apprenez la frustration, c'est la base de toute éducation.</p>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container-center">
+    <h2>Contact</h2>
+    <hr />
+    <h3 id="contact-maries">Les mariés</h3>
+    <p><i class="fa fa-envelope mrg-right-sm"></i><strong>{{ site.email }}</strong></p>
+    <p>
+      <div class="silhouette"></div>
+    </p>
+
+    <h3 id="contact-temoins">Les témoins</h3>
+
+    <p><i class="fa fa-envelope mrg-right-sm"></i><strong>temoins@violaine-et-matthieu.com</strong></p>
+
+    <h4>Les témoins de Violaine</h4>
+    <div class="temoin">
+      <img alt="Lucille" class="temoin-photo left" src="img/lucille.png" />
+      <div class="temoin-description">
+        <strong>Lucille.</strong>
+        Expatriée à Berlin, mais rencontrée à Londres, cette fromagivore girly est la reine des mésaventures en tout genre.
+        Néanmoins, cette épicurienne a toute notre confiance pour l'organisation de ce mariage !
+      </div>
+    </div>
+    <div class="temoin">
+      <img alt="Chlöé" class="temoin-photo right" src="img/chloe.png" />
+      <div class="temoin-description">
+        <strong>Chlöé.</strong>
+        Cette petite bretonne est une reine de l'agenda. Ne vous fiez pas à sa douceur blonde, c'est une vraie pile.
+        Greffière de métier, elle ne fait pas que prendre des notes ; elle sait être une oreille attentive, toujours aux
+        petits soins pour nous gâter.
+      </div>
+    </div>
+    <div class="temoin">
+      <img alt="Charlotte" class="temoin-photo left" src="img/charlotte.png" />
+      <div class="temoin-description">
+        <strong>Charlotte.</strong>
+        L'insouciance joviale incarnée, cette amatrice des beaux mots et des bons mets apporte sa
+        spontanéité et sa bonne humeur. Profondément humaine et pleine de ressources, on compte sur cette excellente RH
+        pour motiver les troupes !
+      </div>
+    </div>
+
+    <h4>Les témoins de Matthieu</h4>
+    <div class="temoin">
+      <img alt="Stephen" class="temoin-photo right" src="img/stephen.png" />
+      <div class="temoin-description">
+        <strong>Stephen.</strong>
+        Mais tout le monde l'appelle Crooky. Installé depuis un an en Chine, il communique désormais sous haute surveillance
+        avec 7 heures de décalage horaire. Coloc pour la vie, imitateur inimitable de bernard-l’hermite et pêcheur de l'extrême
+        à ses heures perdues, il maîtrise à la perfection le décalotage d'oursin femelle.
+      </div>
+    </div>
+    <div class="temoin">
+      <img alt="Morgan" class="temoin-photo left" src="img/morgan.png" />
+      <div class="temoin-description">
+        <strong>Morgan.</strong>
+        Né 100 ans trop tôt, il voit loin et de préférence dans le futur. Du jazz manouche au machine learning en
+        passant par le swing, Morgan est un touche-à-tout. Si vous avez un jour une question sur le
+        <a href="https://en.wikipedia.org/wiki/Universal_approximation_theorem">théorème d'approximation universel</a>,
+        la (vraie) recette de la tartiflette ou la planque de <a href="https://www.youtube.com/watch?v=qznbecUX3Fc">Philippe</a>,
+        c'est à lui qu'il faut la poser.
+      </div>
+    </div>
+    <div class="temoin">
+      <img alt="Théophile" class="temoin-photo right" src="img/theophile.png" />
+      <div class="temoin-description">
+        <strong>Théophile.</strong>
+        Ou le parangon de la sérendipité. L'homme de la situation. L'incarnation de la probité.
+        <a href="https://fr.booctin.com/">Booctin</a>,
+        <a href="https://www.instagram.com/p/BBPN6BRPyhg/">Carlito</a>,
+        <a href="https://www.instagram.com/sanslesens/">sanslesens</a> — on ne compte plus les coups de génie de cet entrepreneur
+        créateur. S'il ne cesse d'étonner par ses looks originaux et ses idées farfelues, il
+        "n'est pas un monstre" comme il aime à le rappeler.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section footer" style="padding: 0">
+  <div class="container-center" style="padding: 1em; font-size: 0.9em;">
+    <p>
+      Un merci tout particulier à <a href="https://margotbarbut.wordpress.com">Margot</a> pour la réalisation des éléments graphiques.
+    </p>
+  </div>
+</section>
+{% include js.html %}
