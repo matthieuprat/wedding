@@ -7,29 +7,28 @@ title: Hébergements
 
 ### Moulin de Villeray
 
-Le moulin dispose de 12 chambres, un appartement et une suite de 2 à 4 personnes.  
-Si vous voulez réserver une chambre, contactez-nous vite à <{{ site.email }}>.
+C'est là que se déroulera la réception.
+Vous pouvez réserver une chambre [en ligne](https://www.domainedevilleray.com/fr) sur le site de l'hôtel ou par téléphone au 02 33 73 30 22.
 
 ### Airbnb
 
 #### À proximité du Moulin de Villeray
 
-* [Maison 9 personnes](https://www.airbnb.fr/rooms/17167112?location=Condeau&s=e3g0-wyva)
-* [Maison 12 personnes](https://www.airbnb.fr/rooms/5449557?location=Condeau&s=e3g0-wyv)
-* [Chambre 4 personnes](https://www.airbnb.fr/rooms/6352589?location=Condeau&s=e3g0-wyv)
-* [Chambre 3 personnes](https://www.airbnb.fr/rooms/2484981?location=Condeau&s=e3g0-wyv)
-* [Maison 4 personnes](https://www.airbnb.fr/rooms/6879098?location=Condeau&s=e3g0-wyv)
-* [Maison 8 personnes](https://www.airbnb.fr/rooms/13291919?location=Condeau&s=e3g0-wyv)
-* [Appartement 2 personnes](https://www.airbnb.fr/rooms/18969505?location=Condeau&s=e3g0-wyv)
-* [Maison 8 personnes](https://www.airbnb.fr/rooms/12824072?location=Condeau&s=e3g0-wyv)
+* ~~[Maison 9 personnes](https://www.airbnb.fr/rooms/17167112?&check_in=2018-07-28)~~
+* ~~[Maison 12 personnes](https://www.airbnb.fr/rooms/5449557?&check_in=2018-07-28)~~
+* ~~[Chambre 4 personnes](https://www.airbnb.fr/rooms/6352589?&check_in=2018-07-28)~~
+* [Chambre 3 personnes](https://www.airbnb.fr/rooms/2484981?&check_in=2018-07-28)
+* ~~[Maison 8 personnes](https://www.airbnb.fr/rooms/13291919?&check_in=2018-07-28)~~
+* [Appartement 2 personnes](https://www.airbnb.fr/rooms/18969505?&check_in=2018-07-28)
+* [Maison 8 personnes](https://www.airbnb.fr/rooms/12824072?&check_in=2018-07-28)
 
 #### À proximité de La Gaudaine
 
-* [Maison 6 personnes](https://www.airbnb.fr/rooms/19015248?location=La%20Gaudaine&s=hWng-IYi)
-* [Maison 6 personnes](https://www.airbnb.fr/rooms/8067181?location=La%20Gaudaine&s=34vHNipk)
-* [Maison 10 personnes](https://www.airbnb.fr/rooms/14539661?location=La%20Gaudaine&s=a8G_TIEn)
-* [Maison 10 personnes](https://www.airbnb.fr/rooms/4186278?location=La%20Gaudaine&s=l1ekhE2a)
-* [Gite 11 personnes](https://www.airbnb.fr/rooms/4610918?location=La%20Gaudaine&s=SvJAr9AH)
+* [Maison 6 personnes](https://www.airbnb.fr/rooms/19015248?&check_in=2018-07-28)
+* ~~[Maison 6 personnes](https://www.airbnb.fr/rooms/8067181?&check_in=2018-07-28)~~
+* [Maison 10 personnes](https://www.airbnb.fr/rooms/14539661?&check_in=2018-07-28)
+* [Maison 10 personnes](https://www.airbnb.fr/rooms/4186278?&check_in=2018-07-28)
+* [Gite 11 personnes](https://www.airbnb.fr/rooms/4610918?&check_in=2018-07-28)
 
 ### Chambres d’hôtes
 
@@ -37,8 +36,8 @@ Si vous voulez réserver une chambre, contactez-nous vite à <{{ site.email }}>.
 
 * [Gite 6 personnes](http://www.gites-de-france-orne.com/Gite-rural-Cortot-Michele-Pascal-a-Sablons-Sur-Huisne-dans-Le-Perche-G590.html)
 * [Gite Le Haut Rivray 5 personnes](http://www.normandie-weekend.com/location-vacances-Gite-a-Sablons-Sur-Huisne-dans-Le-Perche-G347.html)
-* [Gite Le petit Perrier 6 personnes](http://www.normandie-weekend.com/location-vacances-Gite-a-Saint-pierre-la-bruyere-dans-Le-Perche-G457.html)
-* [Chambres d'hôte La Chevalerie](https://www.booking.com/hotel/fr/chambres-d-39-hotes-de-la-chevalerie.fr.html)
+* ~~[Gite Le petit Perrier 6 personnes](http://www.normandie-weekend.com/location-vacances-Gite-a-Saint-pierre-la-bruyere-dans-Le-Perche-G457.html)~~
+* ~~[Chambres d'hôte La Chevalerie](https://www.booking.com/hotel/fr/chambres-d-39-hotes-de-la-chevalerie.fr.html)~~
 
 #### À proximité de La Gaudaine
 
