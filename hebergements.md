@@ -17,16 +17,16 @@ Vous pouvez réserver une chambre [en ligne](https://www.domainedevilleray.com/f
 * ~~[Maison 9 personnes](https://www.airbnb.fr/rooms/17167112?&check_in=2018-07-28)~~
 * ~~[Maison 12 personnes](https://www.airbnb.fr/rooms/5449557?&check_in=2018-07-28)~~
 * ~~[Chambre 4 personnes](https://www.airbnb.fr/rooms/6352589?&check_in=2018-07-28)~~
-* [Chambre 3 personnes](https://www.airbnb.fr/rooms/2484981?&check_in=2018-07-28)
+* ~~[Chambre 3 personnes](https://www.airbnb.fr/rooms/2484981?&check_in=2018-07-28)~~
 * ~~[Maison 8 personnes](https://www.airbnb.fr/rooms/13291919?&check_in=2018-07-28)~~
-* [Appartement 2 personnes](https://www.airbnb.fr/rooms/18969505?&check_in=2018-07-28)
+* ~~[Appartement 2 personnes](https://www.airbnb.fr/rooms/18969505?&check_in=2018-07-28)~~
 * [Maison 8 personnes](https://www.airbnb.fr/rooms/12824072?&check_in=2018-07-28)
 
 #### À proximité de La Gaudaine
 
-* [Maison 6 personnes](https://www.airbnb.fr/rooms/19015248?&check_in=2018-07-28)
+* ~~[Maison 6 personnes](https://www.airbnb.fr/rooms/19015248?&check_in=2018-07-28)~~
 * ~~[Maison 6 personnes](https://www.airbnb.fr/rooms/8067181?&check_in=2018-07-28)~~
-* [Maison 10 personnes](https://www.airbnb.fr/rooms/14539661?&check_in=2018-07-28)
+* ~~[Maison 10 personnes](https://www.airbnb.fr/rooms/14539661?&check_in=2018-07-28)~~
 * [Maison 10 personnes](https://www.airbnb.fr/rooms/4186278?&check_in=2018-07-28)
 * [Gite 11 personnes](https://www.airbnb.fr/rooms/4610918?&check_in=2018-07-28)
 
