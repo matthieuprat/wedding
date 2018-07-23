@@ -39,7 +39,7 @@ $('a').mouseup(function() {
 })
 
 $(function() {
-  scrollTo($('a[href="#programme"]'))
+  if (!location.hash) scrollTo($('a[href="#programme"]'))
 })
 
 var keys = ''
