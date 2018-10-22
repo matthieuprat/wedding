@@ -338,7 +338,6 @@ img::-moz-selection {
 }
 
 .national-map {
-  height: 460px;
   height: 360px;
   overflow-x: hidden;
 
@@ -375,6 +374,14 @@ img::-moz-selection {
   padding: 0;
 
   p { margin: 1em 0 }
+}
+
+.cover {
+  margin-top: 50px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /******************************************************************************

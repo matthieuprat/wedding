@@ -38,10 +38,6 @@ $('a').mouseup(function() {
   $(this).blur()
 })
 
-$(function() {
-  if (!location.hash) scrollTo($('a[href="#programme"]'))
-})
-
 var keys = ''
 var word = 'glandie'
 $(document).on('keyup', function(event) {
