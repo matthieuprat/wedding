@@ -1,7 +1,8 @@
 # Site settings
 title: Violaine et Matthieu
-email: hello@violaine-et-matthieu.com
-url: http://violaine-et-matthieu.com
+email: matthieuprat+wedding@gmail.com
+url: https://matthieuprat.github.io
+baseurl: /wedding
 
 # Build settings
 permalink: pretty
